@@ -22,7 +22,7 @@ ExternalProject_Add(
   google_unity_jar_resolver
 
   GIT_REPOSITORY https://github.com/googlesamples/unity-jar-resolver.git
-  GIT_TAG        v${GOOGLE_UNITY_JAR_RESOLVER_VERSION}
+  GIT_TAG        am-enable_gradle_templates
   GIT_SHALLOW    1
 
   PREFIX ${PROJECT_BINARY_DIR}
