@@ -194,6 +194,9 @@ jobs:
       - name: setup Xcode version
         if: runner.os == 'macOS'
         run: sudo xcode-select -s /Applications/Xcode_${{ env.xcodeVersion }}.app/Contents/Developer
+      - name: Support longpaths
+        if: runner.os == 'Windows'
+        run: git config --system core.longpaths true
       - id: unity_setup
         uses: ./gha/unity
         timeout-minutes: 30
