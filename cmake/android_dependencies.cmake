@@ -76,7 +76,7 @@ set(FIREBASE_MESSAGING_ANDROID_DEPS
 )
 
 set(FIREBASE_REMOTE_CONFIG_ANDROID_DEPS
-    "com.google.firebase:firebase-config:21.4.1"
+    "com.part.firebase:firebase-config:21.4.1"
     "com.google.firebase:firebase-analytics:21.3.0"
 )
 
